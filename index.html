@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+
+  <head>
+    <meta charset="utf-8" />
+    <title>Дизайн интерьера Анатолий Ашенбарк</title>
+    <meta name="description" content />
+    <meta name="author" content />
+
+    <!-- Mobile Specifc Meta -->
+    <meta name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+    <!-- Stylessheets -->
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/bootstrap/bootstrap-grid.min.css" />
+    <link rel="stylesheet" href="css/bootstrap/bootstrap-reboot.min.css" />
+    <link rel="stylesheet" href="css/bootstrap/bootstrap-utilities.min.css" />
+    <link rel="stylesheet" href="css/style.min.css" />
+
+    <!-- Favicon and Apple Icons -->
+    <!-- <link rel="shortcut icon" href="images/icons/favicon.ico" />
+    <link rel="apple-touch-icon" href="images/icons/apple-touch-icon.png" />
+    <link rel="apple-touch-icon" href="images/icons/apple-touch-icon-72x72.png"
+      sizes="72x72" />
+    <link rel="apple-touch-icon"
+      href="images/icons/apple-touch-icon-114x114.png" sizes="114x114" /> -->
+  </head>
+
+  <body>
+    <header>
+      <div
+        class="container d-flex flex-column flex-md-row align-items-center pt-3 pb-3 mb-4">
+        <a href="/"
+          class="d-flex align-items-center link-body-emphasis text-decoration-none">
+          <svg height="40" width="230" xmlns="http://www.w3.org/2000/svg">
+            <title>Ashenbark</title>
+            <text x="5" y="30" fill="pink" stroke="black"
+              font-size="35">Ashenbark</text>
+          </svg>
+        </a>
+
+        <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
+          <a class="me-3 py-2 link-body-emphasis text-decoration-none"
+            href="#">Портфолио</a>
+          <a class="me-3 py-2 link-body-emphasis text-decoration-none"
+            href="#">Контакты</a>
+          <a class="me-3 py-2 link-body-emphasis text-decoration-none"
+            href="#">Пресса</a>
+          <a class="py-2 link-body-emphasis text-decoration-none"
+            href="#">EN</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <h1 class="text-center">Это слайдер на чистом JS, только картинки внутри
+        по ссылкам</h1>
+      <div class="wrap">
+        <div id="arrow-left" class="arrow"></div>
+
+        <div id="slider">
+          <div class="slide slide1">
+            <div class="slide-content">
+              <span>Image 1</span>
+            </div>
+          </div>
+
+          <div class="slide slide2">
+            <div class="slide-content">
+              <span>Image 2</span>
+            </div>
+          </div>
+
+          <div class="slide slide3">
+            <div class="slide-content">
+              <span>Image 3</span>
+            </div>
+          </div>
+        </div>
+
+        <div id="arrow-right" class="arrow"></div>
+      </div>
+
+      <h1 class="text-center">Это jQuery ползунок, который ходит в сеть за
+        библиотеками</h1>
+      <div>
+        <div id="jqslider"></div>
+        <input type="text" id="val" value class="text-center">
+        <script src="https://snipp.ru/cdn/jquery/2.1.1/jquery.min.js"></script>
+        <script
+          src="https://snipp.ru/cdn/jqueryui/1.12.1/jquery-ui.min.js"></script>
+        <link rel="stylesheet"
+          href="https://snipp.ru/cdn/jqueryui/1.12.1/jquery-ui.min.css">
+      </div>
+
+      <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+        data-bs-target="#myModal">
+        Открыть модалку со встроенного в сайт бутстрапа
+      </button>
+      <!-- The Modal -->
+      <div class="modal" id="myModal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+
+            <!-- Modal Header -->
+            <div class="modal-header">
+              <h4 class="modal-title">Modal Heading</h4>
+              <button type="button" class="btn-close"
+                data-bs-dismiss="modal"></button>
+            </div>
+
+            <!-- Modal body -->
+            <div class="modal-body">
+              Modal body..
+            </div>
+
+            <!-- Modal footer -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger"
+                data-bs-dismiss="modal">Close</button>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </main>
+
+    <footer></footer>
+    <!-- JavaScript -->
+    <script src="js/script.js"></script>
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+    <script src="js/bootstrap/bootstrap.bundle.min.js"></script>
+    <!-- <script src="js/bootstrap/bootstrap.esm.min.js"></script> -->
+  </body>
+
+</html>
